@@ -58,7 +58,7 @@ ham-btn-container {
   background-color: #3392b5;
 }
 
-ham-btn {
+.ham-btn {
   display: -ms-grid;
   display: grid;
   padding: .6em .8em;
@@ -67,7 +67,47 @@ ham-btn {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  border-radius: 6px;
+}
+
+.ham-title {
+  padding: .45em;
+  font-size: 35px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.ham-subtitle {
+  padding: .35em 1.9em;
+  font-size: 18px;
+  margin: 4px 0;
+  margin-left: 1.9em;
+  border-radius: 5px;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  font-weight: 100;
+}
+
+@media (max-width: 500px) {
+  .ham-title {
+    padding-right: 0;
+  }
+  .ham-subtitle {
+    max-width: 500px;
+  }
+}
+
+.tas {
+  text-align: start;
+}
+
+.tac {
+  text-align: center;
+}
+
+.tae {
+  text-align: end;
 }
 
 ham-header {
@@ -122,6 +162,14 @@ ham-header ham-nav ham-item:hover {
 
 .full, ham-header, ham-header ham-logo, ham-header ham-nav {
   width: 100%;
+  height: 100%;
+}
+
+.fullW {
+  width: 100%;
+}
+
+.fullH {
   height: 100%;
 }
 
@@ -359,7 +407,7 @@ ham-header ham-nav ham-item:hover {
   color: #d4dfe4;
 }
 
-.electric-dark, ham-btn.electric {
+.electric-dark, .ham-btn.electric {
   background: #0d4053;
   color: #3392b5;
 }
@@ -440,7 +488,7 @@ ham-header ham-nav ham-item:hover {
   color: #f7f7f7;
 }
 
-.material-normal, ham-btn.danger, .material ham-header, .material ham-header ham-logo, .material ham-header ham-item {
+.material-normal, .ham-btn.danger, .material ham-header, .material ham-header ham-logo, .material ham-header ham-item {
   background: #273136;
   color: #f4f4f5;
 }
@@ -631,7 +679,7 @@ ham-header ham-nav ham-item:hover {
   color: #7ebbd6;
 }
 
-.electric-dark, ham-btn.electric {
+.electric-dark, .ham-btn.electric {
   background-color: #0d4053;
   color: #3392b5;
 }
@@ -723,5 +771,236 @@ ham-header ham-nav ham-item:hover {
 .electricBorder {
   border: solid 2px #3392b5;
   border-radius: 5px;
+}
+
+.cold-darkblue {
+  background: #23374D;
+  color: #E5E5E5;
+}
+
+.cold-blue {
+  background: #1089FF;
+  color: #EEEEEE;
+}
+
+.cold-lightgrey {
+  background: #E5E5E5;
+  color: #272121;
+}
+
+.cold-light {
+  background: #EEEEEE;
+  color: #272121;
+}
+
+.cold-dark {
+  background: #272121;
+  color: #EEEEEE;
+}
+
+.pdg10 {
+  padding: 10px;
+}
+
+.pdg20 {
+  padding: 20px;
+}
+
+.pdg30 {
+  padding: 30px;
+}
+
+.pdg40 {
+  padding: 40px;
+}
+
+.pdg50 {
+  padding: 50px;
+}
+
+.pdg60 {
+  padding: 60px;
+}
+
+.pdg70 {
+  padding: 70px;
+}
+
+.pdg80 {
+  padding: 80px;
+}
+
+.pdg90 {
+  padding: 90px;
+}
+
+.pdgH10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pdgH20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.pdgH30 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.pdgH40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.pdgH50 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.pdgH60 {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.pdgH70 {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.pdgH80 {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.pdgH90 {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.pdgV10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.pdgV20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pdgV30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.pdgV40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.pdgV50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pdgV60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.pdgV70 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.pdgV80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.pdgV90 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.maxW50 {
+  max-width: 50px;
+}
+
+.maxW100 {
+  max-width: 100px;
+}
+
+.maxW150 {
+  max-width: 150px;
+}
+
+.maxW200 {
+  max-width: 200px;
+}
+
+.maxW250 {
+  max-width: 250px;
+}
+
+.maxW300 {
+  max-width: 300px;
+}
+
+.maxW350 {
+  max-width: 350px;
+}
+
+.maxW400 {
+  max-width: 400px;
+}
+
+.maxW450 {
+  max-width: 450px;
+}
+
+.maxW500 {
+  max-width: 500px;
+}
+
+.maxW550 {
+  max-width: 550px;
+}
+
+.maxW600 {
+  max-width: 600px;
+}
+
+.maxW650 {
+  max-width: 650px;
+}
+
+.maxW700 {
+  max-width: 700px;
+}
+
+.maxW750 {
+  max-width: 750px;
+}
+
+.maxW800 {
+  max-width: 800px;
+}
+
+.maxW850 {
+  max-width: 850px;
+}
+
+.maxW900 {
+  max-width: 900px;
+}
+
+.maxW950 {
+  max-width: 950px;
+}
+
+.maxW1000 {
+  max-width: 1000px;
 }
 /*# sourceMappingURL=style.css.map */
