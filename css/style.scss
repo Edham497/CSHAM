@@ -36,6 +36,8 @@ html, body{
 //Themes
 @import 'themes/index';
 
+.brn{border-radius: 0;}
+.pdg0{padding:0;}
 @for $i from 1 to 10 {
     .pdg#{$i*10}{padding: #{$i*10}px;}
 }
@@ -50,6 +52,24 @@ html, body{
     .pdgV#{$i*10}{
         padding-top: #{$i*10}px;
         padding-bottom: #{$i*10}px
+    }
+}
+
+.mrg0{padding:0;}
+@for $i from 1 to 10 {
+    .mrg#{$i*10}{margin: #{$i*10}px;}
+}
+
+@for $i from 1 to 10 {
+    .mrgH#{$i*10}{
+        margin-left: #{$i*10}px;
+        margin-right: #{$i*10}px;
+    }
+}
+@for $i from 1 to 10 {
+    .mrgV#{$i*10}{
+        margin-top: #{$i*10}px;
+        margin-bottom: #{$i*10}px
     }
 }
 
